@@ -57,7 +57,7 @@ export class InfoComponentComponent implements OnInit {
   ngOnInit(): void {
 // this.infoComponentService.myFunction();
     this.infoComponentService.myFunctionDate();
-    date.setValue()
+   // date.setValue()
   }
 
   testik(): void{
