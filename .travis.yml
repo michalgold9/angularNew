@@ -4,5 +4,5 @@ node_js:
 services:
   - mongodb
 
-script:
+script: 'true'
   - npm run test 
