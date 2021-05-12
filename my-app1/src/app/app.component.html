@@ -1,0 +1,10 @@
+<h1>Angular Router App</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+  <ul>
+    <li><a href="/info" routerLinkActive="active">First Component</a></li>
+    <li><a routerLink="/myapp" routerLinkActive="active">Second Component</a></li>
+  </ul>
+</nav>
+<app-info-component></app-info-component>
+<router-outlet></router-outlet>
