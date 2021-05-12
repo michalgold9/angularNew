@@ -3,3 +3,6 @@ node_js:
   - 0.8
 services:
   - mongodb
+
+script:
+  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
